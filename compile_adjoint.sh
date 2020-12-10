@@ -16,7 +16,8 @@
 compiler="$1"
 
 # Define MITgcm directory (select source code to use)
-export ROOTDIR=$(cd ~/MITgcm; pwd)
+export ROOTDIR="../../../../MITgcm/"
+#export ROOTDIR=$(cd ~/MITgcm; pwd)
 #export ROOTDIR="/home/n01/n01/dannes1/MITgcm-checkpoint65f"
 
 # Check compiler
@@ -50,7 +51,7 @@ module load cray-netcdf-hdf5parallel
 module load cray-hdf5-parallel
 
 # Compile 
-$ROOTDIR/tools/genmake2 -ieee -mpi -mods=../code -of=$optfile
+$ROOTDIR/tools/genmake2 -ieee -mpi -mods=../code_ad -of=$optfile
 make depend
 make adtaf
 make adall

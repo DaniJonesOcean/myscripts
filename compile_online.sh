@@ -18,8 +18,9 @@ compiler="$1"
 # Define MITgcm directory (select source code to use)
 #export ROOTDIR="/home/n01/n01/dannes1/MITgcm_c65w"
 #export ROOTDIR="/home/n01/n01/dannes1/MITgcm_c65i"
-export ROOTDIR="/home/n01/n01/dannes1/MITgcm"
+#export ROOTDIR="/home/n01/n01/dannes1/MITgcm"
 #export ROOTDIR="/home/n01/n01/dannes1/MITgcm-checkpoint65f"
+export ROOTDIR="../../../../MITgcm/"
 
 # Check compiler
 if [[ "$compiler" == "cray" ]]; then
