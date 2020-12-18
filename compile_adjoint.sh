@@ -55,4 +55,3 @@ $ROOTDIR/tools/genmake2 -ieee -mpi -mods=../code_ad -of=$optfile
 make depend
 make adtaf
 make adall
-

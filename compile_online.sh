@@ -54,4 +54,4 @@ module load cray-hdf5-parallel
 # Compile with mpi
 ../../../tools/genmake2 -ieee -mpi -omp -mods=../code -of=$optfile
 make depend
-make 
+make all 
