@@ -79,6 +79,22 @@ grep -A 3 "Seconds in section" STDOUT.0000 | cut -c 23-90
 echo " "
 echo " "
 
+echo " "
+echo " -------------- PROFILING (ADJOINT) --------------- "
+echo " "
+
+echo "-----"
+echo "Mean sensitivity to temperature"
+grep ad_dynstat_adtheta_mean STDOUT.0000 | cut -c 57-90
+echo "-----"
+
+echo "-----"
+echo "Mean sensitivity to salinity"
+grep ad_dynstat_adsalt_mean STDOUT.0000 | cut -c 57-90
+echo "-----"
+
+echo " -------------- ******************* --------------- "
+
 echo "-----" 
 echo "Total wall-clock time (seconds)"
 grep -m 1 -h -A 3 "Seconds in section" STDOUT.0000 | cut -c 23-90| tail -n 1 | cut -c 18-80
