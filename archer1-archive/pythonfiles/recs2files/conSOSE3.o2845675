@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+*** dannes1   Job: 2845675.sdb   started: 19/04/15 16:10:50   host: esPP001 ***
+*** dannes1   Job: 2845675.sdb   started: 19/04/15 16:10:50   host: esPP001 ***
+*** dannes1   Job: 2845675.sdb   started: 19/04/15 16:10:50   host: esPP001 ***
+*** dannes1   Job: 2845675.sdb   started: 19/04/15 16:10:50   host: esPP001 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=1,place=free,walltime=03:00:00
+Resources allocated: cpupercent=94,cput=00:35:54,mem=610348kb,ncpus=1,vmem=798572kb,walltime=00:43:04
+
+*** dannes1   Job: 2845675.sdb   ended: 19/04/15 16:53:54   queue: serial ***
+*** dannes1   Job: 2845675.sdb   ended: 19/04/15 16:53:54   queue: serial ***
+*** dannes1   Job: 2845675.sdb   ended: 19/04/15 16:53:54   queue: serial ***
+*** dannes1   Job: 2845675.sdb   ended: 19/04/15 16:53:54   queue: serial ***
+--------------------------------------------------------------------------------

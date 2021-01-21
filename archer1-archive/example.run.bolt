@@ -1,0 +1,20 @@
+#!/bin/bash --login
+#
+# Parallel script produced by bolt
+#        Resource: ARCHER (Cray XC30 (24-core per node))
+#    Batch system: PBSPro_select
+#
+# bolt is written by EPCC (http://www.epcc.ed.ac.uk)
+#
+#PBS -l select=8
+#PBS -N eccov4-096
+#PBS -A n01-BAS1
+#PBS -l walltime=1:0:0
+
+# Switch to current working directory
+cd $PBS_O_WORKDIR
+
+# Run the parallel program
+aprun -n 96 -N 12 -S 6 -d 1  ./mitgcmuv
+
+
