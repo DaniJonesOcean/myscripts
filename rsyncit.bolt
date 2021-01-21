@@ -1,9 +1,0 @@
-#!/bin/bash --login
-#
-#PBS -q serial
-#PBS -l cput=02:00:00
-#PBS -A n01-BAS1
-
-cd $PBS_O_WORKDIR
-
-rsync [-r] source destination

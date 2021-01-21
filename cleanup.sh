@@ -11,4 +11,5 @@ then
     cp STDERR.0000 stdERR.txt
     rm -f STDOUT* STDERR*
     rm -rf .0*
+    rm -rf tapes/
 fi
