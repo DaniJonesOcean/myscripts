@@ -12,4 +12,7 @@ then
     rm -f STDOUT* STDERR*
     rm -rf .0*
     rm -rf tapes/
+    rm -f tapes*
+    rm -f w2*
+    rm slurm*
 fi
